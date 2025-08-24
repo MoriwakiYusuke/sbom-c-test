@@ -1,2 +1,2 @@
 # sbom-ex
-MS sbom-tool example tesr
+MS sbom-tool example test
