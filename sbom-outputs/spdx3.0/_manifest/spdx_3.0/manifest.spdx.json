@@ -1,0 +1,310 @@
+{
+  "@context": [
+    "https://spdx.org/rdf/3.0.1/spdx-context.json"
+  ],
+  "@graph": [
+    {
+      "name": "./_manifest/spdx_3.0/manifest.spdx.json",
+      "software_copyrightText": "NOASSERTION",
+      "creationInfo": "_:creationinfo",
+      "spdxId": "SPDXRef-File---manifest-spdx-3.0-manifest.spdx.json-406D5865CAB8BFA3A42382BD70F5091637B987C2",
+      "verifiedUsing": [
+        {
+          "algorithm": "sha256",
+          "hashValue": "a3b45b026556a61f64f627c53512b9cd085d7805471fc841782ee46302d5c366",
+          "creationInfo": "_:creationinfo",
+          "spdxId": "SPDXRef-PackageVerificationCode-5D5B09F6DCB2D53A5FFFC60C4AC0D55FABDF556069D6631545F42AA6E3500F2E",
+          "type": "PackageVerificationCode"
+        },
+        {
+          "algorithm": "sha1",
+          "hashValue": "406d5865cab8bfa3a42382bd70f5091637b987c2",
+          "creationInfo": "_:creationinfo",
+          "spdxId": "SPDXRef-PackageVerificationCode-B1565820A5CDAC40E0520D23F9D0B1497F240DDC51D72EAC6423D97D952D444F",
+          "type": "PackageVerificationCode"
+        }
+      ],
+      "type": "software_File"
+    },
+    {
+      "creationInfo": "_:creationinfo",
+      "name": "NOASSERTION",
+      "spdxId": "SPDXRef-Element-8560FC6692684D8DF52223FF78E30B9630A1CF5A6FA371AAE24FCA896AE20969",
+      "type": "Element"
+    },
+    {
+      "from": "SPDXRef-File---manifest-spdx-3.0-manifest.spdx.json-406D5865CAB8BFA3A42382BD70F5091637B987C2",
+      "relationshipType": "HAS_CONCLUDED_LICENSE",
+      "to": [
+        "SPDXRef-Element-8560FC6692684D8DF52223FF78E30B9630A1CF5A6FA371AAE24FCA896AE20969"
+      ],
+      "creationInfo": "_:creationinfo",
+      "spdxId": "SPDXRef-Relationship-880071587DB76D31C02A8F5380C088F24AADD22BA071241748526E9410C8C02F",
+      "type": "Relationship"
+    },
+    {
+      "from": "SPDXRef-File---manifest-spdx-3.0-manifest.spdx.json-406D5865CAB8BFA3A42382BD70F5091637B987C2",
+      "relationshipType": "HAS_DECLARED_LICENSE",
+      "to": [
+        "SPDXRef-Element-8560FC6692684D8DF52223FF78E30B9630A1CF5A6FA371AAE24FCA896AE20969"
+      ],
+      "creationInfo": "_:creationinfo",
+      "spdxId": "SPDXRef-Relationship-02B44413DAE5251B2E562314CD0F4CEB6D19D414F24B6BB054895B9C7F762B16",
+      "type": "Relationship"
+    },
+    {
+      "name": "./_manifest/spdx_3.0/manifest.spdx.json.sha256",
+      "software_copyrightText": "NOASSERTION",
+      "creationInfo": "_:creationinfo",
+      "spdxId": "SPDXRef-File---manifest-spdx-3.0-manifest.spdx.json.sha256-C7426D76049724569839A759C1FBF4EE01C17724",
+      "verifiedUsing": [
+        {
+          "algorithm": "sha256",
+          "hashValue": "6a433f862e31a774d892307aba16245356c8c22a4ab76c02b9a7e2036dd334e0",
+          "creationInfo": "_:creationinfo",
+          "spdxId": "SPDXRef-PackageVerificationCode-5D5B09F6DCB2D53A5FFFC60C4AC0D55FABDF556069D6631545F42AA6E3500F2E",
+          "type": "PackageVerificationCode"
+        },
+        {
+          "algorithm": "sha1",
+          "hashValue": "c7426d76049724569839a759c1fbf4ee01c17724",
+          "creationInfo": "_:creationinfo",
+          "spdxId": "SPDXRef-PackageVerificationCode-B1565820A5CDAC40E0520D23F9D0B1497F240DDC51D72EAC6423D97D952D444F",
+          "type": "PackageVerificationCode"
+        }
+      ],
+      "type": "software_File"
+    },
+    {
+      "from": "SPDXRef-File---manifest-spdx-3.0-manifest.spdx.json.sha256-C7426D76049724569839A759C1FBF4EE01C17724",
+      "relationshipType": "HAS_CONCLUDED_LICENSE",
+      "to": [
+        "SPDXRef-Element-8560FC6692684D8DF52223FF78E30B9630A1CF5A6FA371AAE24FCA896AE20969"
+      ],
+      "creationInfo": "_:creationinfo",
+      "spdxId": "SPDXRef-Relationship-60A0E293ECBB5EC7DAFC4544D66B39BFF0B4465127093E7A6395B0253B840DE3",
+      "type": "Relationship"
+    },
+    {
+      "from": "SPDXRef-File---manifest-spdx-3.0-manifest.spdx.json.sha256-C7426D76049724569839A759C1FBF4EE01C17724",
+      "relationshipType": "HAS_DECLARED_LICENSE",
+      "to": [
+        "SPDXRef-Element-8560FC6692684D8DF52223FF78E30B9630A1CF5A6FA371AAE24FCA896AE20969"
+      ],
+      "creationInfo": "_:creationinfo",
+      "spdxId": "SPDXRef-Relationship-17BABE6C6A6237CB979E2CC132757899A0F66695B8DE89D2B175899D9042CFDC",
+      "type": "Relationship"
+    },
+    {
+      "name": "./output",
+      "software_copyrightText": "NOASSERTION",
+      "creationInfo": "_:creationinfo",
+      "spdxId": "SPDXRef-File--output-6955FECD4E3A9EA9D504FEEAE9BE2FFFA55D6743",
+      "verifiedUsing": [
+        {
+          "algorithm": "sha256",
+          "hashValue": "d2be12cefbfc2c8a9bfdc1f1b79ad28f34ec03f1993b53b84695892eabf43ba4",
+          "creationInfo": "_:creationinfo",
+          "spdxId": "SPDXRef-PackageVerificationCode-5D5B09F6DCB2D53A5FFFC60C4AC0D55FABDF556069D6631545F42AA6E3500F2E",
+          "type": "PackageVerificationCode"
+        },
+        {
+          "algorithm": "sha1",
+          "hashValue": "6955fecd4e3a9ea9d504feeae9be2fffa55d6743",
+          "creationInfo": "_:creationinfo",
+          "spdxId": "SPDXRef-PackageVerificationCode-B1565820A5CDAC40E0520D23F9D0B1497F240DDC51D72EAC6423D97D952D444F",
+          "type": "PackageVerificationCode"
+        }
+      ],
+      "type": "software_File"
+    },
+    {
+      "from": "SPDXRef-File--output-6955FECD4E3A9EA9D504FEEAE9BE2FFFA55D6743",
+      "relationshipType": "HAS_CONCLUDED_LICENSE",
+      "to": [
+        "SPDXRef-Element-8560FC6692684D8DF52223FF78E30B9630A1CF5A6FA371AAE24FCA896AE20969"
+      ],
+      "creationInfo": "_:creationinfo",
+      "spdxId": "SPDXRef-Relationship-41D1E838EB2CEDB743D4DDD5F6963237F26EFF91BEC0B432DEAA5D123CB0E0AF",
+      "type": "Relationship"
+    },
+    {
+      "from": "SPDXRef-File--output-6955FECD4E3A9EA9D504FEEAE9BE2FFFA55D6743",
+      "relationshipType": "HAS_DECLARED_LICENSE",
+      "to": [
+        "SPDXRef-Element-8560FC6692684D8DF52223FF78E30B9630A1CF5A6FA371AAE24FCA896AE20969"
+      ],
+      "creationInfo": "_:creationinfo",
+      "spdxId": "SPDXRef-Relationship-B97897605F9B0EBAC2F658DF1F86F09C14FB0CB68D7826ADFF730DA30A196403",
+      "type": "Relationship"
+    },
+    {
+      "name": "./helloworld.o",
+      "software_copyrightText": "NOASSERTION",
+      "creationInfo": "_:creationinfo",
+      "spdxId": "SPDXRef-File--helloworld.o-7B677A399F24912975C72650F1E398D9A083BBFF",
+      "verifiedUsing": [
+        {
+          "algorithm": "sha256",
+          "hashValue": "673052ac9a77e311188b9494b3d49a99f8175bd94b66046d76c84188515abcac",
+          "creationInfo": "_:creationinfo",
+          "spdxId": "SPDXRef-PackageVerificationCode-5D5B09F6DCB2D53A5FFFC60C4AC0D55FABDF556069D6631545F42AA6E3500F2E",
+          "type": "PackageVerificationCode"
+        },
+        {
+          "algorithm": "sha1",
+          "hashValue": "7b677a399f24912975c72650f1e398d9a083bbff",
+          "creationInfo": "_:creationinfo",
+          "spdxId": "SPDXRef-PackageVerificationCode-B1565820A5CDAC40E0520D23F9D0B1497F240DDC51D72EAC6423D97D952D444F",
+          "type": "PackageVerificationCode"
+        }
+      ],
+      "type": "software_File"
+    },
+    {
+      "from": "SPDXRef-File--helloworld.o-7B677A399F24912975C72650F1E398D9A083BBFF",
+      "relationshipType": "HAS_CONCLUDED_LICENSE",
+      "to": [
+        "SPDXRef-Element-8560FC6692684D8DF52223FF78E30B9630A1CF5A6FA371AAE24FCA896AE20969"
+      ],
+      "creationInfo": "_:creationinfo",
+      "spdxId": "SPDXRef-Relationship-F398408015ECC7E6583C57198D9A6B0F900AC7D5FAD9805090E60827A0CB6FF8",
+      "type": "Relationship"
+    },
+    {
+      "from": "SPDXRef-File--helloworld.o-7B677A399F24912975C72650F1E398D9A083BBFF",
+      "relationshipType": "HAS_DECLARED_LICENSE",
+      "to": [
+        "SPDXRef-Element-8560FC6692684D8DF52223FF78E30B9630A1CF5A6FA371AAE24FCA896AE20969"
+      ],
+      "creationInfo": "_:creationinfo",
+      "spdxId": "SPDXRef-Relationship-599FA83054B7929484A6BAE539F4467B1F5A6DDA703F273FBB00E8C504EC6E80",
+      "type": "Relationship"
+    },
+    {
+      "externalIdentifierType": "purl",
+      "identifier": "pkg:swid/Moriwaki%20Y/github.com/sbom-ex@1.0.0?tag_id=e9c69e23-91d3-4970-816d-dc87695b7d50",
+      "creationInfo": "_:creationinfo",
+      "spdxId": "SPDXRef-ExternalIdentifier-730DDD21B509BF2691470C29877BB8A485CBE4922E613D1D53E3E99E524853FE",
+      "type": "ExternalIdentifier"
+    },
+    {
+      "creationInfo": "_:creationinfo",
+      "name": "Organization: Moriwaki Y",
+      "spdxId": "SPDXRef-Organization-B6CD4F1B846BC912F260C7742AE9592DC7232E888A7D9737AE368B5A7098EEAD",
+      "type": "Organization"
+    },
+    {
+      "name": "sbom-ex",
+      "software_copyrightText": "NOASSERTION",
+      "software_downloadLocation": "NOASSERTION",
+      "software_packageVersion": "1.0.0",
+      "creationInfo": "_:creationinfo",
+      "externalIdentifier": [
+        "SPDXRef-ExternalIdentifier-730DDD21B509BF2691470C29877BB8A485CBE4922E613D1D53E3E99E524853FE"
+      ],
+      "spdxId": "SPDXRef-RootPackage",
+      "verifiedUsing": [
+        {
+          "algorithm": "sha1",
+          "hashValue": "8743b9e09dca81dc30a97e242ec3d93b74060a63",
+          "creationInfo": "_:creationinfo",
+          "spdxId": "SPDXRef-PackageVerificationCode-B1565820A5CDAC40E0520D23F9D0B1497F240DDC51D72EAC6423D97D952D444F",
+          "type": "PackageVerificationCode"
+        }
+      ],
+      "type": "software_Package"
+    },
+    {
+      "from": "SPDXRef-RootPackage",
+      "relationshipType": "HAS_DECLARED_LICENSE",
+      "to": [
+        "SPDXRef-Element-8560FC6692684D8DF52223FF78E30B9630A1CF5A6FA371AAE24FCA896AE20969"
+      ],
+      "creationInfo": "_:creationinfo",
+      "spdxId": "SPDXRef-Relationship-7DF43F21BD7F09FB8F3B2D0E77A6A7F8BF42588FA2602BF0A6BD8FC1A3F284B2",
+      "type": "Relationship"
+    },
+    {
+      "from": "SPDXRef-RootPackage",
+      "relationshipType": "HAS_CONCLUDED_LICENSE",
+      "to": [
+        "SPDXRef-Element-8560FC6692684D8DF52223FF78E30B9630A1CF5A6FA371AAE24FCA896AE20969"
+      ],
+      "creationInfo": "_:creationinfo",
+      "spdxId": "SPDXRef-Relationship-0D5D61E52301E1C0B515E7719E4A236A45089872763C39D9DA40AB21EEEC39E2",
+      "type": "Relationship"
+    },
+    {
+      "creationInfo": "_:creationinfo",
+      "name": "Tool: Microsoft.SBOMTool-4.1.1",
+      "spdxId": "SPDXRef-Tool-41B0C677CEB9E1124775FDAEE61926E4432FA772B708419999903823EC61375B",
+      "type": "Tool"
+    },
+    {
+      "@id": "_:creationinfo",
+      "created": "2025-08-24T17:33:59Z",
+      "createdBy": [
+        "SPDXRef-Organization-B6CD4F1B846BC912F260C7742AE9592DC7232E888A7D9737AE368B5A7098EEAD"
+      ],
+      "createdUsing": [
+        "SPDXRef-Tool-41B0C677CEB9E1124775FDAEE61926E4432FA772B708419999903823EC61375B"
+      ],
+      "specVersion": "3.0",
+      "creationInfo": "_:creationinfo",
+      "spdxId": "SPDXRef-CreationInfo-0799B4D592549CF6159C30BA3E278BF063A6A241B8728C18E7AEC18BFC2CFF6F",
+      "type": "CreationInfo"
+    },
+    {
+      "creationInfo": "_:creationinfo",
+      "name": "CC0-1.0",
+      "spdxId": "SPDXRef-AnyLicenseInfo-6E237C55B0583CB7BBA05562316C54B0A105ABA04775017E2253237B9A64613C",
+      "type": "AnyLicenseInfo"
+    },
+    {
+      "dataLicense": "SPDXRef-AnyLicenseInfo-6E237C55B0583CB7BBA05562316C54B0A105ABA04775017E2253237B9A64613C",
+      "namespaceMap": {
+        "sbom": "https://github.com/MoriwakiYusuke/sbom-ex/sbom-ex/1.0.0/sapiHXxpnE205fYmwjaQOA"
+      },
+      "profileConformance": [
+        "software",
+        "core",
+        "simpleLicensing"
+      ],
+      "creationInfo": "_:creationinfo",
+      "name": "sbom-ex 1.0.0",
+      "spdxId": "SPDXRef-SpdxDocument-7851EAD3663DF57735D42D54A19B359607D1B766EEC38D665ED334223CB653B5",
+      "type": "SpdxDocument"
+    },
+    {
+      "from": "SPDXRef-AnyLicenseInfo-6E237C55B0583CB7BBA05562316C54B0A105ABA04775017E2253237B9A64613C",
+      "relationshipType": "HAS_DECLARED_LICENSE",
+      "to": [
+        "SPDXRef-SpdxDocument-7851EAD3663DF57735D42D54A19B359607D1B766EEC38D665ED334223CB653B5"
+      ],
+      "creationInfo": "_:creationinfo",
+      "spdxId": "SPDXRef-Relationship-02BFD9E577BC21F790042336F1B45FEFF81E9B1877FE185B21477A9A6F7D718C",
+      "type": "Relationship"
+    },
+    {
+      "from": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "to": [
+        "SPDXRef-File---manifest-spdx-3.0-manifest.spdx.json-406D5865CAB8BFA3A42382BD70F5091637B987C2"
+      ],
+      "creationInfo": "_:creationinfo",
+      "spdxId": "SPDXRef-Relationship-1A8A9EA93AC4D24CADAC834DF343BA6025310E5B0092E4EE11819F69F8BE3857",
+      "type": "Relationship"
+    },
+    {
+      "from": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "to": [
+        "SPDXRef-RootPackage"
+      ],
+      "creationInfo": "_:creationinfo",
+      "spdxId": "SPDXRef-Relationship-DA0DB5678F61CCE687901C5BC4C5F6A707FE56B7091631BE2598C4926C78BDBB",
+      "type": "Relationship"
+    }
+  ]
+}

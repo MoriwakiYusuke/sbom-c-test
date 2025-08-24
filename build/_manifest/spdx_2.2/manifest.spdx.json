@@ -1,0 +1,95 @@
+{
+  "files": [
+    {
+      "fileName": "./output",
+      "SPDXID": "SPDXRef-File--output-6955FECD4E3A9EA9D504FEEAE9BE2FFFA55D6743",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d2be12cefbfc2c8a9bfdc1f1b79ad28f34ec03f1993b53b84695892eabf43ba4"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6955fecd4e3a9ea9d504feeae9be2fffa55d6743"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./helloworld.o",
+      "SPDXID": "SPDXRef-File--helloworld.o-7B677A399F24912975C72650F1E398D9A083BBFF",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "673052ac9a77e311188b9494b3d49a99f8175bd94b66046d76c84188515abcac"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7b677a399f24912975c72650f1e398d9a083bbff"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    }
+  ],
+  "packages": [
+    {
+      "name": "sbom-ex",
+      "SPDXID": "SPDXRef-RootPackage",
+      "downloadLocation": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "569761ced74a206d8974e355c65732fb53caa129"
+      },
+      "filesAnalyzed": true,
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "1.0.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:swid/Moriwaki%20Y/github.com/sbom-ex@1.0.0?tag_id=e69e6873-5252-467c-b57b-f39898735336"
+        }
+      ],
+      "supplier": "Organization: Moriwaki Y",
+      "hasFiles": [
+        "SPDXRef-File--helloworld.o-7B677A399F24912975C72650F1E398D9A083BBFF",
+        "SPDXRef-File--output-6955FECD4E3A9EA9D504FEEAE9BE2FFFA55D6743"
+      ]
+    }
+  ],
+  "externalDocumentRefs": [],
+  "relationships": [
+    {
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "sbom-ex 1.0.0",
+  "documentNamespace": "https://github.com/MoriwakiYusuke/sbom-ex/sbom-ex/1.0.0/LGaFWlcJYE6bnWfMWNdNEw",
+  "creationInfo": {
+    "created": "2025-08-24T17:34:51Z",
+    "creators": [
+      "Organization: Moriwaki Y",
+      "Tool: Microsoft.SBOMTool-4.1.1"
+    ]
+  },
+  "documentDescribes": [
+    "SPDXRef-RootPackage"
+  ]
+}
